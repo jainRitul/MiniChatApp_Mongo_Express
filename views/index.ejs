@@ -24,6 +24,9 @@
                     <button style="background-color: rgb(60, 197, 60) ; color: black; ">Delete</button>
                 </form>
                 <br>
+                <form action="/chats/<%= chat._id %>" method="get">
+                    <button>Show</button>
+                </form>
             </div>
             <p>Received By : <i><%= chat.to %></i</p>
             <hr>
